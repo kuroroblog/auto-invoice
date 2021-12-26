@@ -23,6 +23,9 @@
 12. cv2.imwrite関数の第一引数のパスを変更する。(cv2.imwriteは画像を保存する関数。なので、画像を保存したい場所を、絶対パス指定などして対応する。デスクトップのパスをあてると無難。)
 13. `$ python main.py`を実行する。
 
+## 結果画像
+![output](https://user-images.githubusercontent.com/23373288/147421147-cb55c79f-30f7-428b-bb49-05e4c0575acc.jpg)
+
 ## 参考文献
 - https://note.nkmk.me/python-pip-install-requirements/
 - https://tanuhack.com/operate-spreadsheet/

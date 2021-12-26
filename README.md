@@ -17,7 +17,11 @@
 6. ターミナルを開く。
 7. ターミナルを活用して、zipを展開して生成されたフォルダへ移動する。(`$ cd Desktop/auto-invoice-master`)
 8. `$ pip install -r requirements.txt`を実行する。
-9. `$ python main.py`を実行する。
+9. `$ cp example.json env.json`を実行する。
+10. env.jsonの内容を書き換える。
+11. スプレットシートとの接続を行うための準備を行う。(こちらの記事の2. スプレッドシートの設定まで対応する。https://tanuhack.com/operate-spreadsheet/。ファイル名をservice-account.jsonとしてトップに配置する。)
+12. `$ python main.py`を実行する。
 
 ## 参考文献
 - https://note.nkmk.me/python-pip-install-requirements/
+- https://tanuhack.com/operate-spreadsheet/

@@ -20,7 +20,8 @@
 9. `$ cp example.json env.json`を実行する。
 10. env.jsonの内容を書き換える。
 11. スプレットシートとの接続を行うための準備を行う。(こちらの記事の「2. スプレッドシートの設定」まで対応する。https://tanuhack.com/operate-spreadsheet/ 。ファイル名をservice-account.jsonとしてルートディレクトリに配置する。)
-12. `$ python main.py`を実行する。
+12. cv2.imwrite関数の第一引数のパスを変更する。(cv2.imwriteは画像を出力する関数。なので、画像を出力したい場所を絶対パス指定などして対応する。デスクトップのパスをあてると無難。)
+13. `$ python main.py`を実行する。
 
 ## 参考文献
 - https://note.nkmk.me/python-pip-install-requirements/

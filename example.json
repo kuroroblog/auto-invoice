@@ -1,0 +1,19 @@
+{
+  "data": {
+    "company": "会社名",
+    "address": "住所",
+    "name": "氏名",
+    "tel": "電話番号",
+    "content": "業務内容",
+    "price": {
+      "traffic": "交通費(int型)",
+      "wage": "時給単価(int型)"
+    },
+    "transfer": "振込先",
+    "spreadsheet": {
+      "id": "スプレットシートID",
+      "name": "シート名",
+      "cell": "セル名"
+    }
+  }
+}

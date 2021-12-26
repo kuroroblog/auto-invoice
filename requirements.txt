@@ -1,0 +1,6 @@
+numpy==1.21.4
+Pillow==8.4.0
+opencv-contrib-python==4.5.4.60
+python-dateutil==2.8.2
+gspread==5.1.1
+oauth2client==4.1.3
